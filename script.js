@@ -83,3 +83,6 @@ $('.Nirmala').attr('src', nir);
 
 $('.Mallu').attr('src', mal);
 });
+
+$(".convo).window.location.replace("https://mayameapen123.github.io/Conversation1.github.io/");
+  $(".about).window.location.replace("https://mayameapen123.github.io/Convoabout.github.io/");
