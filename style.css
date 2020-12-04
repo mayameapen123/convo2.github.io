@@ -1,0 +1,230 @@
+body{
+  background-color: black;
+  color:white;
+
+}
+
+h1{
+  font-size: 100%;
+
+
+}
+a {
+  color: white;
+}
+
+a:hover {
+  cursor: pointer;
+
+}
+.numeros {
+  position: fixed;
+  top: 38vh;
+  right: 48vw;
+  z-index: 4;
+  color: white;
+  
+}
+
+.num2{
+  opacity: 0.2;
+}
+.num3{
+  opacity: 0.2;
+}
+h5{
+  font-size: 12px;
+   
+color: yellow;
+ margin-top: -5px;
+
+}
+
+p{
+  font-size: 14px;
+}
+h6{
+  font-size: 12px;
+color: yellow;
+  margin-top: -5px;
+}
+.base {
+width: 100%;
+z-index: 0;
+}
+.toplayer{
+  position: fixed;
+z-index:1;
+
+border: 1px solid white;
+height: 88vh; /* For 100% screen height */
+    width:  90.5vw;
+margin-left: 60px;
+margin-right: 200px;
+top:0;
+}
+
+.toplayer2 {
+  position: fixed;
+width:  86vw;
+height: 88vh;
+margin-left: 79px;
+margin-right: 0px;
+top:0;
+//background-color: red;
+z-index: 2;
+
+}
+.toplayer3{
+position: fixed;
+width:  86vw;
+height: 88vh;
+margin-left: 79px;
+margin-right: 0px;
+margin-top:-50px;
+
+z-index: 3;
+
+}
+h2{
+  font-size:14px;
+}
+
+.inactive{
+  opacity: 0.5;
+}
+
+
+
+h7{
+  clear: left;
+   float: right;
+  font-size:12px;
+  opacity: 0.5 ;
+  margin-top: 10px;
+ 
+}
+
+.base h2{
+  font-size:16px;
+  font-weight: bold;
+}
+.rot {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -120px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+.rot2 {
+  transform: rotate(90deg);
+  position: fixed;
+  left: -120px;
+  top: 280px;
+  z-index: -1;
+ 
+}
+
+
+.bottomnav{
+position: fixed;
+  bottom: 0;
+  width: 98%;
+  padding-right: 80px;
+   padding-left: 80px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+  left: 10px;
+}
+
+
+.bottomrowq{
+  position: relative;
+  top:78vh;
+}
+
+.hline{
+  width: 100%;
+  height: 0.5px;
+  background-color: white;
+}
+
+audio{
+
+  width:100%;
+  height: 45px;
+}
+
+.mt50{
+  margin-top:-10px;
+}
+
+.mb50{
+  margin-top:20px;
+}
+
+.mt25{
+  margin-top:-20px;
+}
+audio{
+  width: 100%;
+  margin-top: 35%;
+  margin-bottom: 15%;
+}
+
+
+
+.num02, .num03{
+    opacity: 0.5;
+    font-weight: normal;
+    z-index: 0;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border: none;
+
+}
+
+.quest2{
+  opacity: 0;
+}
+
+.quest3{
+  opacity: 0;
+}
+
+
+.red {
+  background-color: red;
+  width: 100%;
+  height: 100%;
+}
+
+.row1{
+  height: 44vh;
+}
+
+.row2{
+  height: 44vh;
+}
+
+.bottomnav h2 {
+  font-weight: normal;
+}
+.bottomnav a:hover {
+  color: white;
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+.rot3 {
+  transform: rotate(90deg);
+  position: fixed;
+  right: -140px;
+  top: 280px;
+  z-index: -1;
+ 
+}
